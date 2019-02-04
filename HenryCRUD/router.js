@@ -16,7 +16,6 @@ router.use(function(req, res, next) {
 });
 
 let connection = mysql.createConnection({
-    //host: "cop4710test.cyy7cvqal2x4.us-east-1.rds.amazonaws.com",
     host: "127.0.0.1",
     port: "3306",
     user: "root",
